@@ -18,27 +18,24 @@
         <Label x:Name="labelXScore" Content="X" HorizontalAlignment="Left" Margin="308,178,0,0" VerticalAlignment="Top" Height="26" Width="38"/>
         <Label x:Name="labelOScore" Content="O" HorizontalAlignment="Left" Margin="308,206,0,0" VerticalAlignment="Top" Height="26" Width="38"/>
         <Label x:Name="labelDrawScore" Content="Draw" HorizontalAlignment="Left" Margin="308,231,0,0" VerticalAlignment="Top" Height="26" Width="38"/>
-        <TextBox x:Name="textXScore" Margin="351,181,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="21" HorizontalAlignment="Left" Width="25"/>
-        <TextBox x:Name="textOScore" Margin="351,209,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="21" HorizontalAlignment="Left" Width="25"/>
-        <TextBox x:Name="textDrawScore" Margin="352,235,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="21" HorizontalAlignment="Left" Width="25"/>
-        <Button x:Name="buttonR3C1" Content="Button" HorizontalAlignment="Left" Margin="10,284,0,0" VerticalAlignment="Top" Height="57" Width="74"/>
-        <Button x:Name="buttonR3C3" Content="Button" HorizontalAlignment="Left" Margin="168,284,0,0" VerticalAlignment="Top" Height="57" Width="74"/>
+        <TextBox x:Name="textXScore" Margin="351,181,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="21" HorizontalAlignment="Left" Width="25" FontWeight="Bold" FontSize="15" Background="LightCyan" TextAlignment="Center" VerticalContentAlignment="Center" ToolTip="X Player Score."/>
+        <TextBox x:Name="textOScore" Margin="351,209,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="21" HorizontalAlignment="Left" Width="25" FontWeight="Bold" FontSize="15" Background="LightCyan" TextAlignment="Center" VerticalContentAlignment="Center" ToolTip="O Player Score."/>
+        <TextBox x:Name="textDrawScore" Margin="352,235,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="21" HorizontalAlignment="Left" Width="25" FontWeight="Bold" FontSize="15" Background="LightCyan" TextAlignment="Center" VerticalContentAlignment="Center" ToolTip="Number of Draws."/>
+        <Button x:Name="buttonR3C1" Content="" HorizontalAlignment="Left" Margin="10,284,0,0" VerticalAlignment="Top" Height="57" Width="74" TabIndex="9" FontWeight="Black" FontSize="45" Background="WhiteSmoke" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
+        <Button x:Name="buttonR3C3" Content="" HorizontalAlignment="Left" Margin="168,284,0,0" VerticalAlignment="Top" Height="57" Width="74" TabIndex="11" FontWeight="Black" FontSize="45" Background="WhiteSmoke" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
         <Label x:Name="labelCurrentPlayer" Content="Current Player" HorizontalAlignment="Left" Margin="203,82,0,0" VerticalAlignment="Top" Height="27" Width="86"/>
         <TextBox x:Name="textOPlayerName" HorizontalAlignment="Left" Margin="300,52,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Height="18" ToolTip="Enter O Player Name" TabIndex="1"/>
-        <RadioButton x:Name="radioOPlayer" Content="O Player" HorizontalAlignment="Left" Margin="95,123,0,0" VerticalAlignment="Top" Height="15" Width="84" ToolTip="Select O Player as Starting Player" TabIndex="3"/>
-        <RadioButton x:Name="radioXPlayer" Content="X Player" HorizontalAlignment="Left" Margin="18,123,0,0" VerticalAlignment="Top" Height="15" Width="85" ToolTip="Select X Player as Starting Player" TabIndex="2"/>
-        <Rectangle x:Name="rectangleChoosePlayer" HorizontalAlignment="Left" Height="48" Margin="10,92,0,0" Stroke="Black" VerticalAlignment="Top" Width="160" ToolTip="Choose the player who starts the game"/>
-        <Label x:Name="labelChoosePlayer" Content="Choose Starting Player" HorizontalAlignment="Left" Margin="25,92,0,0" VerticalAlignment="Top" Height="26" Width="130" RenderTransformOrigin="-9.211,0.448"/>
-        <Button x:Name="buttonR1C2" Content="Button" HorizontalAlignment="Left" Margin="89,160,0,0" VerticalAlignment="Top" Height="57" Width="74"/>
-        <Button x:Name="buttonR1C3" Content="Button" HorizontalAlignment="Left" Margin="168,160,0,0" VerticalAlignment="Top" Height="57" Width="74"/>
-        <Button x:Name="buttonR2C1" Content="Button" HorizontalAlignment="Left" Margin="10,222,0,0" VerticalAlignment="Top" Height="57" Width="74"/>
-        <Button x:Name="buttonR1C1" Content="Button" HorizontalAlignment="Left" Margin="10,160,0,0" VerticalAlignment="Top" Height="57" Width="74"/>
-        <Button x:Name="buttonReset" Content="_Reset" HorizontalAlignment="Left" Margin="300,274,0,0" VerticalAlignment="Top" Height="28" Width="74" ToolTip="Press to reset the game" TabIndex="4"/>
-        <Button x:Name="buttonR2C2" Content="Button" HorizontalAlignment="Left" Margin="89,222,0,0" VerticalAlignment="Top" Height="57" Width="74"/>
-        <Button x:Name="buttonR2C3" Content="Button" HorizontalAlignment="Left" Margin="168,222,0,0" VerticalAlignment="Top" Height="57" Width="74"/>
-        <Button x:Name="buttonR3C2" Content="Button" HorizontalAlignment="Left" Margin="89,284,0,0" VerticalAlignment="Top" Height="57" Width="74"/>
-        <TextBox x:Name="textCurrentPlayer" HorizontalAlignment="Left" Margin="226,108,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="40" Height="32" ToolTip="Current player symbol"/>
-        <Button x:Name="buttonExit" Content="_Exit" HorizontalAlignment="Left" Margin="300,312,0,0" VerticalAlignment="Top" Height="29" Width="76" ToolTip="Press to exit the game" TabIndex="5"/>
+        <Button x:Name="buttonR1C2" Content="" HorizontalAlignment="Left" Margin="89,160,0,0" VerticalAlignment="Top" Height="57" Width="74" TabIndex="4" FontWeight="Black" FontSize="45" Background="WhiteSmoke" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
+        <Button x:Name="buttonR1C3" Content="" HorizontalAlignment="Left" Margin="168,160,0,0" VerticalAlignment="Top" Height="57" Width="74" TabIndex="5" FontWeight="Black" FontSize="45" Background="WhiteSmoke" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
+        <Button x:Name="buttonR2C1" Content="" HorizontalAlignment="Left" Margin="10,222,0,0" VerticalAlignment="Top" Height="57" Width="74" TabIndex="6" FontWeight="Black" FontSize="45" Background="WhiteSmoke" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
+        <Button x:Name="buttonR1C1" Content="" HorizontalAlignment="Left" Margin="10,160,0,0" VerticalAlignment="Top" Height="57" Width="74" TabIndex="3" FontWeight="Black" FontSize="45" Background="WhiteSmoke" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
+        <Button x:Name="buttonReset" Content="_Reset" HorizontalAlignment="Left" Margin="300,274,0,0" VerticalAlignment="Top" Height="28" Width="74" ToolTip="Press to reset the game" TabIndex="12" Click="buttonReset_Click"/>
+        <Button x:Name="buttonR2C2" Content="" HorizontalAlignment="Left" Margin="89,222,0,0" VerticalAlignment="Top" Height="57" Width="74" TabIndex="7" FontWeight="Black" FontSize="45" Background="WhiteSmoke" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
+        <Button x:Name="buttonR2C3" Content="" HorizontalAlignment="Left" Margin="168,222,0,0" VerticalAlignment="Top" Height="57" Width="74" TabIndex="8" FontWeight="Black" FontSize="45" Background="WhiteSmoke" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
+        <Button x:Name="buttonR3C2" Content="" HorizontalAlignment="Left" Margin="89,284,0,0" VerticalAlignment="Top" Height="57" Width="74" TabIndex="10" FontWeight="Black" FontSize="45" Background="WhiteSmoke" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
+        <TextBox x:Name="textCurrentPlayer" HorizontalAlignment="Left" Margin="226,108,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="40" Height="32" ToolTip="Current player symbol" FontWeight="Bold" FontSize="18" Background="LightCyan" TextAlignment="Center" VerticalContentAlignment="Center"/>
+        <Button x:Name="buttonExit" Content="_Exit" HorizontalAlignment="Left" Margin="300,312,0,0" VerticalAlignment="Top" Height="29" Width="76" ToolTip="Press to exit the game" TabIndex="13" Click="buttonExit_Click"/>
+        <Button x:Name="buttonChoosePlayer" Content="Choose Starting Player" HorizontalAlignment="Left" Margin="29,96,0,0" VerticalAlignment="Top" RenderTransformOrigin="-0.526,0.142" Height="44" Width="145" Click="buttonChoosePlayer_Click" ToolTip="Click to Choose Starting Player." TabIndex="2"/>
 
     </Grid>
 </Window>
