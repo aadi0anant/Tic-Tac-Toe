@@ -34,8 +34,8 @@
         <Button x:Name="buttonR2C3" Content="" HorizontalAlignment="Left" Margin="168,222,0,0" VerticalAlignment="Top" Height="57" Width="74" TabIndex="8" FontWeight="Black" FontSize="45" Background="WhiteSmoke" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
         <Button x:Name="buttonR3C2" Content="" HorizontalAlignment="Left" Margin="89,284,0,0" VerticalAlignment="Top" Height="57" Width="74" TabIndex="10" FontWeight="Black" FontSize="45" Background="WhiteSmoke" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
         <TextBox x:Name="textCurrentPlayer" HorizontalAlignment="Left" Margin="226,108,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="40" Height="32" ToolTip="Current player symbol" FontWeight="Bold" FontSize="18" Background="LightCyan" TextAlignment="Center" VerticalContentAlignment="Center"/>
-        <Button x:Name="buttonExit" Content="_Exit" HorizontalAlignment="Left" Margin="300,312,0,0" VerticalAlignment="Top" Height="29" Width="76" ToolTip="Press to exit the game" TabIndex="13" Click="buttonExit_Click"/>
-        <Button x:Name="buttonChoosePlayer" Content="Choose Starting Player" HorizontalAlignment="Left" Margin="29,96,0,0" VerticalAlignment="Top" RenderTransformOrigin="-0.526,0.142" Height="44" Width="145" Click="buttonChoosePlayer_Click" ToolTip="Click to Choose Starting Player." TabIndex="2"/>
+        <Button x:Name="buttonExit" Content="E_xit" HorizontalAlignment="Left" Margin="300,312,0,0" VerticalAlignment="Top" Height="29" Width="76" ToolTip="Press to exit the game" TabIndex="13" Click="buttonExit_Click"/>
+        <Button x:Name="buttonChoosePlayer" Content="_Choose Starting Player" HorizontalAlignment="Left" Margin="29,96,0,0" VerticalAlignment="Top" RenderTransformOrigin="-0.526,0.142" Height="44" Width="145" Click="buttonChoosePlayer_Click" ToolTip="Click to Choose Starting Player." TabIndex="2"/>
 
     </Grid>
 </Window>
