@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Assignment_2"
         mc:Ignorable="d"
-        Title="MainWindow" Height="400" Width="450"
+        Title="Tic Tac Toe Game" Height="400" Width="450"
         WindowStartupLocation="CenterScreen">
 
     <Grid HorizontalAlignment="Left" Width="800">
