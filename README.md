@@ -17,7 +17,7 @@ This is a simple two-player Tic-Tac-Toe game built using Windows Presentation Fo
 -->Accessibility features:
 
     1. Keyboard navigation: Players can navigate through the game using the Tab key to switch focus between the text fields, buttons, and grid cells.
-    2. Access keys: Access keys (keyboard shortcuts) are implemented for major buttons, allowing players to use the game more efficiently with a keyboard. For example, pressing Alt + C will fire the Choose               Starting Player button, and Alt + X will activate the button to quit the application.
+    2. Access keys: Access keys (keyboard shortcuts) are implemented for major buttons, allowing players to use the game more efficiently with a keyboard. For example, pressing Alt + C will fire the Choose Starting Player button, and Alt + X will activate the button to quit the application.
 
 **How to Play**
 
